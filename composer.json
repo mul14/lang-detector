@@ -1,0 +1,23 @@
+{
+    "name": "nasution/lang-detector",
+    "description": "Detect user language",
+    "version": "0.0.1",
+    "homepage": "https://github.com/mul14/lang-detector",
+    "keywords": ["language"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mulia Arifandi Nasution",
+            "email": "mul14.net@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nasution\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">= 5.3.3"
+    }
+}
